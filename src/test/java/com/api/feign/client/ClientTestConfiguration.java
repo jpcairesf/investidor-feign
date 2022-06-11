@@ -15,12 +15,6 @@ import org.springframework.test.web.servlet.MockMvc;
 public class ClientTestConfiguration {
 
     @Autowired
-    protected ObjectMapper objectMapper;
-
-    @Autowired
-    protected ResourceLoader resourceLoader;
-
-    @Autowired
     protected MockMvc mockMvc;
 
     protected HttpHeaders headers = new HttpHeaders();
